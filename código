@@ -1,0 +1,24 @@
+import pandas as pd
+
+texto = """Cama de Casal 450
+Tv 500
+Guarda Roupa 680
+Quatro Cadeiras 800"""
+texto_sep = texto.split('\n')
+
+pandas = dict(Titulo=list(), Preço=list())
+
+for linhas in texto_sep:
+    quebra = linhas.split(' ')
+
+    titulo = ' '.join(quebra[:-1])
+    preco = int(quebra[-1])
+
+    pandas['Titulo'].append(titulo)
+    pandas['Preço'].append(preco)
+
+tabela = pd.DataFrame(pandas)
+
+print(tabela)
+
+tabela.to_excel("teste.xlsx")
