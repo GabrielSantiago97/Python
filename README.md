@@ -1,2 +1,2 @@
 # Python
-Fiz um pequeno método para trabalhar com texto no pandas e podendo modificá-lo e criar uma base de dados.
+Criei esse acesso para salvar códigos de python que estou estudando para futuras aplicações, sem necessidade de procurar do zero. Pasta chamada Python para somente arquivos com essa linguagem. Exemplos de aplicações que irei fazer: Web scrapping, Automacão Web, Analise de Dados.
